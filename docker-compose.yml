@@ -1,0 +1,42 @@
+version: '3.7'
+
+services:
+  mysql:
+    hostname: digilib-mysql
+    image: mysql:5.7.20
+    container_name: "mysql"
+    restart: unless-stopped
+    command: --sql_mode=""
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: digilib
+      MYSQL_PASSWORD: root
+    volumes:
+      - ./data:/docker-entrypoint-initdb.d
+  
+  django_gunicorn:
+    build:
+      context: .
+    volumes:
+      - static:/static
+      - media:/media
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mysql
+      
+  nginx:
+    build: ./nginx
+    volumes:
+      - static:/static
+      - media:/media
+    ports:
+      - "80:80"
+    depends_on:
+      - django_gunicorn
+
+volumes:
+  static:
+  media:
