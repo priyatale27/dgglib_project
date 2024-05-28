@@ -1,0 +1,19 @@
+{% load i18n %}{% autoescape off %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DggLib</title>
+  </head>
+  <body>
+    Hello {{user}},
+    <br>
+    <p>Please Click the link bellow to verify your ownership of this email to complete the registration process and login into your account</p>
+    <br>
+    {{content}}{% url 'email_activation_login' uidb64=uid token=token %}
+
+    <p>Thanks</p>
+    {% endautoescape %}
+  </body>
+</html>

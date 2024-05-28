@@ -1,0 +1,407 @@
+{%load static %}
+<div class="tab-content " id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+        aria-labelledby="pills-home-tab">
+        <div class="scroll_div" >
+            <div class="after_top_right_side_margin" id="append_dashboard_div">
+                <!-- 1 acc button -->
+                {%for item in result%}
+                <div class="d-flex bd-highlight">
+
+                    <div class=" flex-grow-1 bd-highlight">
+                        <span class="for_data">
+                            {{item.count}} files/{{item.real_size}}
+                        </span>
+                        <button id="{{item.folder_id}}" class="accordion"><span
+                                class="red_edit_icon"
+                                onclick="change_folder_name({{item.folder_id}}, '{{item.folder_name}}')"><i
+                                    class="fas fa-edit"
+                                    style="cursor: pointer;color: rgb(238, 76, 48);"></i></span>
+                            {{item.folder_name|truncatechars:16}}
+
+                        </button>
+
+                        <div class="panel example_inner_scroller"
+                            id="main_panel_{{item.folder_id}}">
+                            <div style="margin-top: 20px;margin-bottom: 20px;">
+
+                                <div class="d-flex bd-highlight ">
+                                    <div class="flex-grow-1 bd-highlight">
+
+                                        <div class="flex-container deai" id="{{item.folder_id}}"
+                                            onclick="modal_open({{item.folder_id}})">
+                                            <div>
+                                                <img src="{%static 'images/add_bttun.png' %}"
+                                                    alt="">
+                                            </div>
+                                            <div class="edit_add_item">
+                                                Add Item
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class=" bd-highlight file_del_icon">
+                                        <a href="#/" id="file_folder_trash"><i
+                                                class='fas fa-trash-alt'
+                                                onclick="item_delete({{item.folder_id}})"
+                                                style='font-size:22px;color:#708090;'></i></a>
+                                    </div>
+                                    <div class=" bd-highlight file_share_icon">
+                                        <a href="#/" id="file_folder_share"><i
+                                                class="fa fa-share" onclick="item_share({{item.folder_id}})"
+                                                style='font-size:22px;color:#00FA9A;'
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class=" bd-highlight file_share_icon">
+                                        <div class=" bd-highlight f_share_icn">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- highchart inner -->
+                                <div>
+                                    <div id="chart_container_inner_{{item.folder_id}}"
+                                        style="width: 75%;height: 300px;"></div>
+
+                                </div>
+
+                                <div class="col_padding_design">
+                                    <span class="innser_search"><img id="search_file_in_folder"
+                                            src="/static/images/search_b.png" alt=""
+                                            class="dgl_s_image"></span><input
+                                        onInput="searchFunction(event,{{item.folder_id}})"
+                                        type="Search" name="search_key"
+                                        class="form-control_de_file" placeholder="Search Files">
+
+
+
+
+
+
+
+                                    <!-- <button id="file_search "type="button" name="search"></button> -->
+                                </div>
+
+
+                                <!-- new code 29/09/2020 -->
+
+                            </div>
+                            <div id="panel_{{item.folder_id}}">
+                                {%for items in item.products%}
+                                <div style="margin-top:15px;">
+                                    <div>
+                                        <!--new start-->
+                                        <div class="d-flex bd-highlight cc_bc_pb">
+                                            <div class="p-2 flex-grow-1 bd-highlight">
+                                                <div class="flex-container">
+                                                    <div>
+                                                        {% if items.image%}
+                                                        {% if '.png' in items.image %}
+                                                        <a href="{{items.image}}"
+                                                            target="_blank"><img
+                                                                src="{{items.image}}" alt=""
+                                                                class="ppp_ccc_image">{{items.icon|safe}}
+                                                        </a>
+                                                        {%elif '.jpg' in items.image %}
+                                                        <a href="{{items.image}}"
+                                                            target="_blank"><img
+                                                                src="{{items.image}}" alt=""
+                                                                class="ppp_ccc_image">{{items.icon|safe}}
+                                                        </a>
+                                                        {%elif '.jpeg' in items.image %}
+                                                        <a href="{{items.image}}"
+                                                            target="_blank"><img
+                                                                src="{{items.image}}" alt=""
+                                                                class="ppp_ccc_image">{{items.icon|safe}}
+                                                        </a>
+                                                        {%elif '.JPG' in items.image %}
+                                                        <a href="{{items.image}}"
+                                                            target="_blank"><img
+                                                                src="{{items.image}}" alt=""
+                                                                class="ppp_ccc_image">{{items.icon|safe}}
+                                                        </a>
+                                                        {%elif '.JPEG' in items.image %}
+                                                        <a href="{{items.image}}"
+                                                            target="_blank"><img
+                                                                src="{{items.image}}" alt=""
+                                                                class="ppp_ccc_image">{{items.icon|safe}}
+                                                        </a>
+                                                        {%elif '.PNG' in items.image %}
+                                                        <a href="{{items.image}}"
+                                                            target="_blank"><img
+                                                                src="{{items.image}}" alt=""
+                                                                class="ppp_ccc_image">{{items.icon|safe}}
+                                                        </a>
+                                                        {%else%}
+                                                        <a href="{{items.image}}"
+                                                            target="_blank">{{items.icon|safe}}</a>
+                                                        {%endif%}
+                                                        {%else%}
+                                                        <a href="/"
+                                                            onclick=" return false;">{{items.icon|safe}}
+                                                        </a>
+                                                        {%endif%}
+                                                    </div>
+                                                    <div class="items">
+                                                        {{items.file_name}}<span
+                                                            onclick="change_file_name({{item.folder_id}},{{items.file_id}},'{{items.file_name}}')"><i
+                                                                class="fas fa-edit"
+                                                                style="cursor: pointer;color: rgb(238, 76, 48);padding-left: 5px;"></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="p-2 bd-highlight">
+                                <a href="#/"><i class='fas fa-trash-alt' onclick ="item_delete({{items.file_id}})" style='font-size:22px;color:#708090;'></i></a>
+                                </div> -->
+                                            <div class="p-2 bd-highlight">
+                                                <!-- <div class=" bd-highlight f_share_icn"><i class="fa fa-share"
+                                                    onclick="Non_register_folder_share({{item.folder_id}})"
+                                                    style='font-size:20px;color:#4476b3;' aria-hidden="true" data-toggle="modal" data-target="#non_registered_people"></i></div>
+                                                </div> -->
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox"
+                                                        class="form-check-input check_style file_delete_share"
+                                                        name="file_checked"
+                                                        value="{{items.file_id}}"
+                                                        id="file_checked_{{items.file_id}}">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!--new end-->
+                                </div>
+                                {%endfor%}
+                            </div>
+                        </div>
+                        <!--panel end div-->
+                    </div>
+                    <div class=" bd-highlight f_del_icn"><i class='fas fa-trash-alt'
+                            onclick="folder_del({{item.folder_id}})"
+                            style='font-size:20px;color:#708090;'></i></div>
+                    <div class=" bd-highlight f_share_icn"><i class="fa fa-share"
+                            onclick="folder_share({{item.folder_id}})"
+                            style='font-size:20px;color:#00FA9A;' aria-hidden="true"></i></div>
+
+                    <!-- <div class=" bd-highlight f_share_icn"><i class="fa fa-share"
+                            onclick="Non_register_folder_share({{item.folder_id}})"
+                            style='font-size:20px;color:#4476b3;' aria-hidden="true"
+                            data-toggle="modal" data-target="#non_registered_people"></i></div> -->
+                </div>
+
+                {%endfor%}
+            </div>
+        </div>
+        <!--main append end div-->
+    </div>
+    <!--home tab end-->
+
+    <div class="tab-pane fade mt-2" id="pills-profile" role="tabpanel"
+        aria-labelledby="pills-profile-tab">
+        <div class="pagination_set_height_member">
+            <div class="d-flex bd-highlight mb-1 bdhs">
+                <div class="p-4 bd-highlight wccccc">#</div>
+                <div class="p-4 bd-highlight name_text">Name</div>
+                <div class="ml-auto p-4 bd-highlight pp_d">Profile Picture</div>
+            </div>
+            <div id="my_people_tab_section">
+                {%for user in all_user%}
+                <div class="d-flex bd-highlight mb-1 mbbt">
+                    <div class="p-4 bd-highlight wccccc1">{{forloop.counter}}</div>
+                    <div class="p-4 bd-highlight wccccc2">{{user.user_id}}</div>
+                    <div class="ml-auto p-2 bd-highlight">
+                        {%if user.profile_pic%}
+                        <img src="{{user.profile_pic.url}}" alt="" class="bbbb">
+                        {%else%}
+                        <img src="{%static 'images/inner1_NEW.png'%}" alt="" class="bbbb">
+                        {%endif%}
+                    </div>
+                </div>
+                {%endfor%}
+
+            </div>
+
+        </div>
+        <!-- #####  pagination design start ######-->
+
+        <div class="blog_bottom_pagination" style="text-align:center">
+            <!-- <div class="counter"></div> -->
+            <button class="paginate left pglb" id="member_left_btn"><i
+                    class="fa fa-angle-double-left" style="font-size: 40px;"></i></button>
+            <button class="paginate right pgrb" id="member_right_btn">
+                <i class="fa fa-angle-double-right" style="font-size: 40px;"></i>
+            </button>
+        </div>
+        <!--#####   pagination design end ####-->
+
+    </div>
+    <!--profile tab end-->
+
+    <!-- <div class="tab-pane fade mt-2" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+<div class="pagination_set_height_member" >
+        <div class="d-flex bd-highlight mb-1 bdhs">
+            <div class="p-4 bd-highlight wccccc">#</div>
+            <div class="p-4 bd-highlight name_text">Folder Name</div>
+            <div class="ml-auto p-4 bd-highlight pp_d">
+            <div class="flex-container">
+            <div class="pp_d px-2">Delete</div>
+            <div class="pp_d">Share</div>
+            </div>
+            </div>
+          </div>
+          <div id ="my_folder_tab_section">
+          {%for item in list_of_folder%}
+            <div class="d-flex bd-highlight mb-1 mbbt">
+                <div class="p-4 bd-highlight wccccc1">{{forloop.counter}}</div>
+                <div class="p-4 bd-highlight wccccc2">{{item.folder_name}}</div>
+                <div class="ml-auto p-4 bd-highlight folder_icon">
+                    <div class="flex-container">
+                    <div class="pp_d px-4">
+                        <a href="#/"><i class='fas fa-trash-alt'  style='font-size:22px;color:#708090;'></i></a>
+                    </div>
+                    <div class="pp_d">
+                        <a href="#/" id="abc"><i class="fa fa-share" onclick="folder_share({{item.id}})" style='font-size:22px;color:#00FA9A;' aria-hidden="true"></i></a>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              {%endfor%}
+
+          </div>
+
+    </div>
+
+         #####  pagination design start ######-->
+
+    <!-- <div class="blog_bottom_pagination" style="text-align:center"> -->
+    <!-- <div class="counter"></div> -->
+    <!-- <button class="paginate left pglb" id ="folder_left_btn"><i class="fa fa-angle-double-left"style="font-size: 40px;"></i></button>
+        <button class="paginate right pgrb" id ="folder_right_btn">
+            <i class="fa fa-angle-double-right" style="font-size: 40px;"></i>
+        </button>
+        </div> -->
+    <!--#####   pagination design end ####-->
+
+    <!-- </div>contact tab end  -->
+
+    <div class="tab-pane fade mt-2" id="pills-Quadra" role="tabpanel"
+        aria-labelledby="pills-Quadra-tab">
+        <div class="pagination_set_height">
+            <div class="d-flex bd-highlight mb-3 py-3 trash_header_bg">
+                <div class="mr-auto p-2 bd-highlight">
+                    <div class="flex-container">
+                        <div class="trash_value deleted_header_text">#</div>
+                        <div class="deleted_header_text">Shared By</div>
+                    </div>
+                </div>
+                <div class="p-2 bd-highlight deleted_header_text deleted_file_width">Shared File
+                </div>
+                <div class="p-2 bd-highlight deleted_header_text for_icon_retive"></div>
+                <div class="p-2 bd-highlight deleted_header_text for_icon_retive"></div>
+            </div>
+            <div id="share_tab_section">
+                {%for item in shared_item_list%}
+                <div class="d-flex bd-highlight  py-3 trash_border_bottom">
+                    <div class="mr-auto p-2 bd-highlight">
+                        <div class="flex-container">
+                            <div class="trash_value deleted_row_text">{{forloop.counter}}</div>
+                            <div class="deleted_row_text">{{item.sender_name}}</div>
+                        </div>
+                    </div>
+                    <div class="p-2 bd-highlight deleted_row_text deleted_file_width">
+                        {{item.file_name}}</div>
+                    <div class="p-2 bd-highlight deleted_row_text for_icon_retive"><a
+                            href="{{item.file_url}}" target="_blank"><i class="fa fa-download"
+                                style="color:#00BFFF;cursor:pointer" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="p-2 bd-highlight deleted_row_text for_icon_retive"><i
+                            class="fa fa-trash" onclick="share_del({{item.file_id}})"
+                            style="color:#DC143C;cursor:pointer" aria-hidden="true"></i></div>
+                </div>
+                {%endfor%}
+            </div>
+
+        </div>
+        <!--####   pagination design start #####-->
+
+        <div class="blog_bottom_pagination" style="text-align:center">
+            <!-- <div class="counter"></div> -->
+            <button class="paginate left pglb" id="share_left_btn"><i
+                    class="fa fa-angle-double-left" style="font-size: 40px;"></i></button>
+            <button class="paginate right pgrb" id="share_right_btn">
+                <i class="fa fa-angle-double-right" style="font-size: 40px;"></i>
+            </button>
+        </div>
+        <!-- ####  pagination design end ####-->
+    </div>
+    <!--quadra tab end-->
+
+    <div class="tab-pane fade mt-2" id="pills-Sovrana" role="tabpanel"
+        aria-labelledby="pills-Sovrana-tab">
+
+        <div class="pagination_set_height">
+            <div class="d-flex bd-highlight mb-3 py-3 trash_header_bg">
+                <div class="mr-auto p-2 bd-highlight">
+                    <div class="flex-container">
+                        <div class="trash_value deleted_header_text delete_paad">#</div>
+                        <div class="deleted_header_text delete_paad">Deleted File</div>
+                    </div>
+                </div>
+                <div class="p-2 bd-highlight deleted_header_text deleted_file_width">
+                    <!-- <span style="position: relative;top: 7px;left: -25px;">Check All</span>
+                <input type="checkbox" class="form-check-input" style="width: 25px;height: 20px;" id="ckbCheckAll" /> -->
+                    <button type="button" class="btn btn-outline-info"
+                        id="select_all_btn">Delete All</button>
+                </div>
+                <!-- <div class="p-2 bd-highlight deleted_header_text for_icon_retive"></div> -->
+                <div class="p-2 bd-highlight deleted_header_text for_icon_retive  delete_paad1">
+                    <i class="fa fa-trash" style="color:#DC143C;cursor:pointer;font-size: 20px;"
+                        aria-hidden="true" onclick="trash_del()"></i>
+                </div>
+            </div>
+            <div id="trash_tab_section">
+                {%for item in delete_folder_file%}
+                <div class="d-flex bd-highlight  py-3 trash_border_bottom">
+                    <div class="mr-auto p-2 bd-highlight">
+                        <div class="flex-container">
+                            <div class="trash_value deleted_row_text">{{forloop.counter}}</div>
+                            <div class="deleted_row_text">{{item.folder}}</div>
+                        </div>
+                    </div>
+                    <div class="p-2 bd-highlight deleted_row_text deleted_file_width">
+                        {{item.file_name|truncatechars:16}}</div>
+                    <div class="p-2 bd-highlight deleted_row_text for_icon_retive"><a
+                            href="{{item.file_url}}" target="_blank"><i class="fa fa-download"
+                                style="color:#00BFFF;cursor:pointer" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="p-2 bd-highlight deleted_row_text for_icon_retive">
+                        <div class="form-group form-check">
+                            <input type="checkbox"
+                                class="form-check-input trash_check checkbox_checked"
+                                name="trash_file_checked" onclick="collect_checked_value(this)"
+                                value="{{item.file_id}}">
+                        </div>
+                    </div>
+                </div>
+                {%endfor%}
+            </div>
+
+        </div>
+        <!-- ####  pagination design start  ####-->
+
+        <div class="blog_bottom_pagination" style="text-align:center">
+            <!-- <div class="counter"></div> -->
+            <button class="paginate left pglb" id="trash_left_btn"><i
+                    class="fa fa-angle-double-left" style="font-size: 40px;"></i></button>
+            <button class="paginate right pgrb" id="trash_right_btn">
+                <i class="fa fa-angle-double-right" style="font-size: 40px;"></i>
+            </button>
+        </div>
+        <!-- ####  pagination design end ####-->
+    </div>
+    <!--sovrana tab end-->
+
+</div>
+<script>
+    search_folderr
+</script>

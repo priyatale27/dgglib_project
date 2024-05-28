@@ -1,0 +1,17 @@
+{% load i18n %}{% autoescape off %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DggLib</title>
+  </head>
+  <body>
+    Hello {{user}},
+    <p>This is password reset email.Please click the link below to reset your password</p>
+    <br>
+    {{content}}{% url 'email_data_input' uidb64=uid token=token %}
+    <p>Thanks</p>
+    {% endautoescape %}
+  </body>
+</html>

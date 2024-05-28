@@ -1,0 +1,272 @@
+{%load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{%static 'css/bootstrap_latest/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/digital_locker.css'%}">
+    <link rel="stylesheet" href="{%static 'css/digital_locker_signin.css'%}">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://blogfonts.com/css/aWQ9MTUzMjQ5JnN1Yj0yNDkmYz1mJnR0Zj1GdXR1cmFQVEJvbGQub3RmJm49ZnV0dXJhLXB0/Futura PT.otf"
+        rel="stylesheet" type="text/css" />
+    <link
+        href="https://blogfonts.com/css/aWQ9MTUzMjQ5JnN1Yj0yNDkmYz1mJnR0Zj1GdXR1cmFQVExpZ2h0Lm90ZiZuPWZ1dHVyYS1wdC0xOQ/Futura PT.otf"
+        rel="stylesheet" type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <title>DggLib</title>
+</head>
+<style>
+    .activationlink a {
+        margin-left: 124px;
+        color: #949494;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+</style>
+<body>
+    {% comment %} <header class="digital_locker_header">
+        <div class="digital_locker_heading">
+            DggLib
+        </div>
+    </header> {% endcomment %}
+    <main>
+        <section class="section_pading_top_sign">
+            <div class="container">
+                <div>
+                    <div class="digital_locker_signup_heading">
+                        DggLib
+                    </div>
+                </div>
+            </div>
+            <div class="container sign_up_container">
+                <div class="sign_up_containt">
+                <center><div id="danger" style="display:none"></div></center>
+                    <div class="signup_inner_padding">
+                        <div class="register_gapping">
+                           SIGN IN
+                        </div>
+                        <form id="login_form" method="POST">
+                            <div class="form-group">
+                            {% csrf_token %}
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="User Id" name ="user_id" style=" color: #b6b6b6; font-size: 18px;"><span class="for_lock_image">
+                                        <img src="{%static 'images/sign up_user_img.png'%}" alt="">
+                                    </span>
+                            </div>
+                            <div class="form-group input_group_spacing">
+                                <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password" style=" color: #b6b6b6;"><span class="for_lock_image">
+                                    <img src="{%static 'images/sign up_lock_img.png'%}" alt="">
+                                </span>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary btn-lg btn-block custom_button" id="login_btn" name="login"> Sign In</button>
+                            </form>
+                             <div class="forgetpassword">
+                                 <a href="{%url 'password_reset' %}"> Forget User ID/Password</a>
+                                
+                             </div>
+                            <div class="activationlink">
+                                 <a href="{%url 're_activate'%}"> Resend Account Activation link</a>
+                            </div>
+                            <div class="after_signin_b">
+                                <span class="after_signin_b1"> or,</span> <a href="{%url 'register_render'%}" class="after_signin_b2"> Sign Up</a> 
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+        <div id ="spinner" class="loader_background_design" style="display:none;">
+        <div class=" loader_icon">
+            <img src="{%static 'images/Ripple-1s-200px (3).gif'%}" style="width: 10rem; height: 10rem;" alt="">
+            </div>
+        </div>
+        
+        </section>
+    </main>
+    <footer class="digital_locker_footer">
+        <div class="container digital_locker_footer_padding">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer_col_inner_padding">
+                        <div class="d_f_about">About</div>
+                        <div class="about_us_text">
+                            <a href="" class="about_us_text1">
+                                About Us
+                            </a>
+                        </div>
+                        <div class="about_us_text">
+                            <a href="" class="about_us_text1">
+                                Work Here
+                            </a>
+                        </div>
+                        <div class="about_us_text">
+                            <a href="" class="about_us_text1">
+                                How to Use
+                            </a>
+                        </div>
+                        <div class="about_us_text">
+                            <a href="" class="about_us_text1">
+                                Security
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d_f_about">Help</div>
+                    <div class="about_us_text">
+                        <a href="" class="about_us_text1">
+                            My Account
+                        </a>
+                    </div>
+                    <div class="about_us_text">
+                        <a href="" class="about_us_text1">
+                            My Documents
+                        </a>
+                    </div>
+                    <div class="about_us_text">
+                        <a href="" class="about_us_text1">
+                            My Folder
+                        </a>
+                    </div>
+                    <div class="about_us_text">
+                        <a href="" class="about_us_text1">
+                            Bookmarked
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <div class="d-flex flex-row-reverse bd-highlight">
+                            <div class=" bd-highlight d_l_f_t">
+                                DggLib
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="  d_l_f_t1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                        Integer blandit lorem justo,
+                    </div>
+
+                    <div class="d-flex flex-row-reverse bd-highlight">
+
+
+                        <div class=" bd-highlight social_icon"><i class="fab fa-youtube"></i></div>
+                        <div class=" bd-highlight social_icon"><i class="fab fa-pinterest-p"></i></div>
+                        <div class=" bd-highlight social_icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div class=" bd-highlight social_icon"><i class="fab fa-facebook-f"></i></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{%static 'js/jquery-3.5.1.slim.min.js'%}"></script>
+     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="{%static 'js/popper.min.js'%}"></script>
+    <script src="{%static 'js/bootstrap.min.js'%}"></script>
+    <script>
+    // using enter key sign-in
+    $(document).ready(function(){
+        $('#exampleInputPassword1').keypress(function(e){
+        if(e.keyCode==13)
+        $('#login_btn').click();
+        });
+    });
+
+    // $(function() {
+
+    //     $('input[name="password"]').click(function() {
+    //     // alert('Hello...!');
+    //     });
+
+    //     //press enter on text area..
+
+    //     $('#txtSearchProdAssign').keypress(function(e) {
+    //     var key = e.which;
+    //     if (key == 13) // the enter key code
+    //     {
+    //         $('input[name = login]').click();
+    //         return false;
+    //     }
+    //     });
+
+    // });
+    
+    
+    $(document).ready(function(){
+        $('#login_btn').click(function(){
+        
+        $('#spinner').show()
+        var formdata=new FormData(document.getElementById('login_form'));
+        if (formdata!=""){
+                        $.ajax({
+                                    type:'POST',
+                                    cache: false,
+                                    contentType: false,
+                                    processData: false,
+                                    url:'{% url "Login" %}',
+                                    dataType:'json',
+                                    data: formdata,
+                                    headers: {
+                                    'X-CSRFToken': '{{csrf_token}}'
+                                    },
+                                    success:function(data){
+                                        $('#spinner').hide()
+                                        if(data['status'] =='ok'){
+                                            var url= '{% url "index" %}'
+                                            localStorage.setItem("token", data['token']);
+                                            localStorage.setItem("remaining_size", data['remaining_size']);
+                                            window.location.href = url;
+                                        }else if (data['status'] == 'error'){
+                                            $("#danger").html(data['message']);
+                                            $("#danger").addClass("alert alert-danger");
+                                            $("#danger").show()
+                                        }
+                                        
+                                    },
+                                    error : function(xhr,errmsg,err) {
+                                        console.log(xhr);
+                                        $('#spinner').hide();
+                                        $("#danger").html("Please register to procceed");
+                                        $("#danger").addClass("alert alert-danger");
+                                        $("#danger").show()
+
+                                    },
+                                });
+                        }
+
+                });
+
+        });
+    
+    
+    </script>
+
+</body>
+
+</html>

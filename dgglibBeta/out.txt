@@ -1,0 +1,2387 @@
+  Watching for file changes with StatReloader
+[22/Oct/2021 14:08:55] "GET / HTTP/1.1" 200 11031
+[22/Oct/2021 14:08:56] "GET / HTTP/1.1" 200 11031
+[22/Oct/2021 15:24:01] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.58', 36322)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Oct/2021 15:56:40] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.58', 58256)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Oct/2021 15:56:40] "GET / HTTP/1.1" 200 11031
+[22/Oct/2021 17:00:42] "OPTIONS /register_ajax/ HTTP/1.1" 200 0
+Bad Request: /register_ajax/
+[22/Oct/2021 17:00:43] "POST /register_ajax/ HTTP/1.1" 400 77
+[22/Oct/2021 17:03:03] "OPTIONS /login_ajax HTTP/1.1" 301 0
+[22/Oct/2021 18:41:05] "GET / HTTP/1.1" 200 11031
+[22/Oct/2021 20:46:16] "GET / HTTP/1.0" 200 11031
+[22/Oct/2021 20:46:17] "GET / HTTP/1.0" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.44', 38866)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Oct/2021 05:11:17] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.44', 33682)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Oct/2021 05:11:17] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.60', 35076)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Oct/2021 06:27:06] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.60', 53484)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Oct/2021 06:27:06] "GET / HTTP/1.1" 200 11031
+[23/Oct/2021 08:11:48] "GET / HTTP/1.1" 200 11031
+[23/Oct/2021 13:28:01] code 400, message Bad request version ('À\x14À')
+[23/Oct/2021 13:28:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Oct/2021 13:43:09] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.128', 6254)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Oct/2021 16:10:45] "GET / HTTP/1.1" 200 11031
+[23/Oct/2021 18:24:30] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('65.49.20.68', 48262)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Oct/2021 18:25:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Oct/2021 18:25:51] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Oct/2021 22:42:59] "GET / HTTP/1.1" 200 11031
+Not Found: /favicon.ico
+[23/Oct/2021 22:43:04] "GET /favicon.ico HTTP/1.1" 404 11944
+Not Found: /178.128.34.99:80
+[23/Oct/2021 22:50:22] "CONNECT 178.128.34.99:80 HTTP/1.1" 404 1679
+[23/Oct/2021 22:50:27] code 400, message Bad request syntax ('\x04\x01\x00P²\x80"c0\x00')
+[23/Oct/2021 22:50:27] " P²"c0 " 400 -
+[2021-10-23 22:50:27,302] - Broken pipe from ('5.178.86.78', 22665)
+
+Not Found: /http:/fingerprints.bablosoft.com/ip
+[23/Oct/2021 22:50:27] "POST http://fingerprints.bablosoft.com/ip?Z72240381060Q1 HTTP/1.1" 404 1747
+[23/Oct/2021 22:50:32] code 400, message Bad request syntax ('\x05\x01\x00')
+[23/Oct/2021 22:50:32] " " 400 -
+[2021-10-23 22:50:32,315] - Broken pipe from ('5.178.86.78', 42313)
+
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.57', 34908)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Oct/2021 01:05:08] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.57', 34178)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Oct/2021 01:05:08] "GET / HTTP/1.1" 200 11031
+[24/Oct/2021 01:16:14] "GET / HTTP/1.1" 200 11031
+[24/Oct/2021 02:19:14] code 400, message Bad request syntax ('\x04\x01\x00\x19h/;¡\x00')
+[24/Oct/2021 02:19:14] " h/;¡ " 400 -
+[2021-10-24 02:19:14,281] - Broken pipe from ('89.248.165.52', 36682)
+
+[24/Oct/2021 02:20:14] code 400, message Bad request syntax ('\x05\x01\x00')
+[24/Oct/2021 02:20:14] " " 400 -
+[2021-10-24 02:20:14,406] - Broken pipe from ('89.248.165.52', 39888)
+
+Not Found: /hotmail-com.olc.protection.outlook.com:25
+[24/Oct/2021 02:20:14] "CONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1" 404 1766
+[24/Oct/2021 03:30:04] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+[24/Oct/2021 03:30:04] " PUÎ s " 400 -
+[2021-10-24 03:30:04,901] - Broken pipe from ('89.248.165.52', 32946)
+
+[24/Oct/2021 03:31:12] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+[24/Oct/2021 03:31:12] " PUÎ s " 400 -
+[2021-10-24 03:31:12,946] - Broken pipe from ('89.248.165.52', 58502)
+
+[24/Oct/2021 03:32:13] code 400, message Bad request syntax ('\x05\x01\x00')
+[24/Oct/2021 03:32:13] " " 400 -
+[2021-10-24 03:32:13,072] - Broken pipe from ('89.248.165.52', 56488)
+
+Not Found: /85.206.160.115:80
+[24/Oct/2021 03:32:13] "CONNECT 85.206.160.115:80 HTTP/1.1" 404 1670
+Not Found: /console/login/LoginForm.jsp
+[24/Oct/2021 09:23:52] "GET /console/login/LoginForm.jsp HTTP/1.1" 404 11992
+[24/Oct/2021 10:21:15] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[24/Oct/2021 10:21:15] "Z¥     " 400 -
+[2021-10-24 10:21:15,921] - Broken pipe from ('136.144.41.128', 43408)
+
+[24/Oct/2021 10:40:07] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[24/Oct/2021 10:40:07] "Z¥     " 400 -
+[2021-10-24 10:40:07,981] - Broken pipe from ('136.144.41.128', 46090)
+
+[24/Oct/2021 11:20:05] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[24/Oct/2021 11:20:05] "Z¥     " 400 -
+Not Found: /NON_EXISTING_PATH/
+[24/Oct/2021 13:10:04] "GET /NON_EXISTING_PATH/ HTTP/1.1" 404 11965
+[24/Oct/2021 13:54:34] code 400, message Bad request version ('À\x14À')
+[24/Oct/2021 13:54:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+----------------------------------------
+Exception happened during processing of request from ('167.94.138.57', 42668)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Oct/2021 16:00:03] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('167.94.138.57', 33386)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Oct/2021 16:00:03] "GET / HTTP/1.1" 200 11031
+[24/Oct/2021 16:18:24] "GET / HTTP/1.1" 200 11031
+Not Found: /favicon.ico
+[24/Oct/2021 16:18:26] "GET /favicon.ico HTTP/1.1" 404 11944
+[24/Oct/2021 18:51:50] "GET / HTTP/1.0" 200 11031
+[24/Oct/2021 18:51:55] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[24/Oct/2021 18:51:55] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[24/Oct/2021 18:51:55] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 12034
+[24/Oct/2021 18:51:55] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[24/Oct/2021 18:51:55] "  " 400 -
+[24/Oct/2021 18:52:00] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[24/Oct/2021 18:52:00] "   root " 400 -
+[24/Oct/2021 18:52:00] "OPTIONS / HTTP/1.0" 200 11031
+[24/Oct/2021 18:52:00] code 400, message Bad request version ('RTSP/1.0')
+[24/Oct/2021 18:52:00] "OPTIONS / RTSP/1.0" 400 -
+[24/Oct/2021 18:52:05] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[24/Oct/2021 18:52:05] "  (rþ          |                    " 400 -
+[24/Oct/2021 18:52:10] code 400, message Bad HTTP/0.9 request type ('\x00')
+[24/Oct/2021 18:52:10] "          versionbind   " 400 -
+[24/Oct/2021 18:52:15] code 400, message Bad HTTP/0.9 request type ('\x00')
+[24/Oct/2021 18:52:15] "            " 400 -
+[24/Oct/2021 18:52:15] code 400, message Bad request syntax ('HELP')
+[24/Oct/2021 18:52:15] "HELP" 400 -
+[24/Oct/2021 18:52:16] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[24/Oct/2021 18:52:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Oct/2021 18:52:16] code 400, message Bad request version ('\x00/\x00')
+[24/Oct/2021 18:52:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Oct/2021 18:52:16] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[24/Oct/2021 18:52:16] "   qjn0k¡¢" 400 -
+[24/Oct/2021 18:52:21] code 400, message Bad request version ('0.12\x00')
+[24/Oct/2021 18:52:21] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[24/Oct/2021 18:52:21] code 400, message Bad request syntax ('\x01default')
+[24/Oct/2021 18:52:21] "default" 400 -
+[24/Oct/2021 18:52:21] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[24/Oct/2021 18:52:21] "0   -c   $ " 400 -
+[24/Oct/2021 18:52:26] code 400, message Bad HTTP/0.9 request type ('0')
+[24/Oct/2021 18:52:26] "0`  " 400 -
+[24/Oct/2021 18:52:26] code 400, message Bad request version ('SIP/2.0')
+[24/Oct/2021 18:52:26] "OPTIONS sip:nm SIP/2.0" 400 -
+[24/Oct/2021 18:52:31] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[24/Oct/2021 18:52:31] "TNMP   TNME   " 400 -
+[24/Oct/2021 18:52:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[24/Oct/2021 18:52:36] "  à     " 400 -
+[24/Oct/2021 18:52:41] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[24/Oct/2021 18:52:41] "DmdT           ÿÿ" 400 -
+[24/Oct/2021 18:52:46] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[24/Oct/2021 18:52:46] ":   /     @  =            /         @                 " 400 -
+[24/Oct/2021 18:52:51] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[24/Oct/2021 18:52:51] "JRMI K" 400 -
+[24/Oct/2021 18:52:56] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[24/Oct/2021 18:52:56] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[24/Oct/2021 18:53:01] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[24/Oct/2021 18:53:01] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[24/Oct/2021 18:53:06] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[24/Oct/2021 18:53:06] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[24/Oct/2021 18:53:11] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[24/Oct/2021 18:53:11] "              " 400 -
+[24/Oct/2021 18:53:16] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[24/Oct/2021 18:53:16] "GIOP  $                abcdef     get     " 400 -
+Not Found: /nmaplowercheck1635081825
+Not Found: /sdk
+[24/Oct/2021 18:53:45] "POST /sdk HTTP/1.1" 404 11921
+[24/Oct/2021 18:53:45] "GET /nmaplowercheck1635081825 HTTP/1.1" 404 11983
+Not Found: /evox/about
+[24/Oct/2021 18:53:45] "GET /evox/about HTTP/1.1" 404 11941
+Not Found: /HNAP1
+[24/Oct/2021 18:53:46] "GET /HNAP1 HTTP/1.1" 404 11926
+[24/Oct/2021 18:53:47] "GET / HTTP/1.1" 200 11031
+[24/Oct/2021 18:53:52] "GET / HTTP/1.1" 200 11031
+[24/Oct/2021 19:56:58] "GET / HTTP/1.1" 200 11031
+[24/Oct/2021 22:39:33] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[24/Oct/2021 22:39:33] "Z¥     " 400 -
+[25/Oct/2021 01:47:33] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('167.94.138.41', 60528)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Oct/2021 04:56:49] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('167.94.138.41', 52654)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Oct/2021 04:56:49] "GET / HTTP/1.1" 200 11031
+[25/Oct/2021 05:21:40] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[25/Oct/2021 05:21:40] "Z¥     " 400 -
+[2021-10-25 05:21:40,987] - Broken pipe from ('37.0.10.67', 57104)
+
+Not Found: /87.236.16.23:80
+[25/Oct/2021 06:28:47] "CONNECT 87.236.16.23:80 HTTP/1.1" 404 1659
+[25/Oct/2021 06:28:52] code 400, message Bad request syntax ('\x04\x01\x00PWì\x10\x170\x00')
+[25/Oct/2021 06:28:52] " PWì0 " 400 -
+[2021-10-25 06:28:52,756] - Broken pipe from ('5.178.86.74', 19215)
+
+Not Found: /http:/host64.ru/rb/getip.php
+[25/Oct/2021 06:28:52] "POST http://host64.ru/rb/getip.php?Z72240381060Q1 HTTP/1.1" 404 1709
+[25/Oct/2021 06:28:57] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Oct/2021 06:28:57] " " 400 -
+[2021-10-25 06:28:57,767] - Broken pipe from ('5.178.86.74', 30379)
+
+[25/Oct/2021 11:01:05] "GET / HTTP/1.0" 200 11031
+[25/Oct/2021 11:30:35] code 400, message Bad request version ('À\x14À')
+[25/Oct/2021 11:30:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Oct/2021 11:30:46] "GET / HTTP/1.0" 200 11031
+Not Found: /favicon.ico
+[25/Oct/2021 11:30:47] "GET /favicon.ico HTTP/1.1" 404 11944
+Not Found: /robots.txt
+[25/Oct/2021 11:30:47] "GET /robots.txt HTTP/1.1" 404 11941
+Not Found: /sitemap.xml
+[25/Oct/2021 11:30:48] "GET /sitemap.xml HTTP/1.1" 404 11944
+----------------------------------------
+Exception happened during processing of request from ('101.33.61.154', 33654)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.33.61.154', 33664)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.33.61.154', 33676)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:08:23] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:08:54] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:09:06] "POST /register_ajax HTTP/1.1" 400 143
+Internal Server Error: /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[25/Oct/2021 13:09:52] "POST /register_ajax HTTP/1.1" 500 64846
+Internal Server Error: /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[25/Oct/2021 13:10:30] "POST /register_ajax HTTP/1.1" 500 64846
+Internal Server Error: /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[25/Oct/2021 13:11:26] "POST /register_ajax HTTP/1.1" 500 64846
+Internal Server Error: /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[25/Oct/2021 13:11:43] "POST /register_ajax HTTP/1.1" 500 64846
+[25/Oct/2021 13:15:10] "GET / HTTP/1.1" 200 11031
+Internal Server Error: /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[25/Oct/2021 13:31:27] "POST /register_ajax HTTP/1.1" 500 65205
+Internal Server Error: /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[25/Oct/2021 13:32:17] "POST /register_ajax HTTP/1.1" 500 65205
+[25/Oct/2021 13:36:01] "POST /login_ajax/ HTTP/1.1" 200 91
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:39:41] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:42:00] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:42:14] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:42:30] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:42:45] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 13:43:02] "POST /login_ajax HTTP/1.1" 400 143
+[25/Oct/2021 13:59:55] code 400, message Bad request version ('À\x14À')
+[25/Oct/2021 13:59:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 14:17:19] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 14:24:27] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 14:25:03] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[25/Oct/2021 14:26:40] "POST /register_ajax HTTP/1.1" 400 143
+[25/Oct/2021 14:33:16] "GET / HTTP/1.1" 200 11031
+[25/Oct/2021 14:33:17] "GET /static/css/digital_locker_signin.css HTTP/1.1" 200 4233
+[25/Oct/2021 14:33:17] "GET /static/images/sign%20up_user_img.png HTTP/1.1" 200 859
+[25/Oct/2021 14:33:17] "GET /static/images/sign%20up_lock_img.png HTTP/1.1" 200 380
+Not Found: /favicon.ico
+[25/Oct/2021 14:33:20] "GET /favicon.ico HTTP/1.1" 404 11941
+[25/Oct/2021 14:33:21] "GET /register/ HTTP/1.1" 200 11501
+[25/Oct/2021 14:33:22] "GET /static/css/digital_locker_signup.css HTTP/1.1" 200 3944
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.57', 46936)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Oct/2021 15:47:12] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.57', 41448)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Oct/2021 15:47:12] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.44', 35010)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Oct/2021 16:24:57] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.44', 36198)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[25/Oct/2021 16:24:57] "GET / HTTP/1.1" 200 11031
+[25/Oct/2021 22:43:23] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[25/Oct/2021 22:43:23] "    c                           " 400 -
+[26/Oct/2021 01:20:15] "GET / HTTP/1.1" 200 11031
+[26/Oct/2021 01:20:16] "GET /static/css/digital_locker_signin.css HTTP/1.1" 200 4233
+[26/Oct/2021 01:20:16] "GET /static/css/digital_locker.css HTTP/1.1" 200 24897
+[26/Oct/2021 01:20:16] "GET /static/js/jquery-3.5.1.slim.min.js HTTP/1.1" 200 72382
+[26/Oct/2021 01:20:16] "GET /static/js/popper.min.js HTTP/1.1" 200 21262
+[26/Oct/2021 01:20:16] "GET /static/css/bootstrap_latest/bootstrap.min.css HTTP/1.1" 200 160409
+[26/Oct/2021 01:20:16] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60180
+[26/Oct/2021 01:20:16] "GET /static/images/sign%20up_lock_img.png HTTP/1.1" 200 380
+[26/Oct/2021 01:20:16] "GET /static/images/sign%20up_user_img.png HTTP/1.1" 200 859
+[26/Oct/2021 01:20:16] "GET /static/images/Ripple-1s-200px%20(3).gif HTTP/1.1" 200 93586
+Not Found: /favicon.ico
+[26/Oct/2021 01:20:17] "GET /favicon.ico HTTP/1.1" 404 11941
+[26/Oct/2021 01:20:17] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25043)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25147)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25036)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25117)
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25034)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25004)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.194', 40108)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[26/Oct/2021 02:06:27] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.194', 59152)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[26/Oct/2021 02:06:27] "GET / HTTP/1.1" 200 11031
+Not Found: /http:/wall.angelsword.cc/lixuan.php
+[26/Oct/2021 06:13:47] "GET http://wall.angelsword.cc/lixuan.php HTTP/1.1" 404 1723
+[26/Oct/2021 06:17:18] code 400, message Bad request version ('À\x14À')
+[26/Oct/2021 06:17:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Oct/2021 07:02:29] "GET / HTTP/1.1" 200 11031
+[26/Oct/2021 10:32:20] "HEAD / HTTP/1.0" 200 11031
+Not Found: /system_api.php
+[26/Oct/2021 10:32:21] "GET /system_api.php HTTP/1.1" 404 11953
+Not Found: /c/version.js
+[26/Oct/2021 10:32:21] "GET /c/version.js HTTP/1.1" 404 11947
+Not Found: /streaming/clients_live.php
+[26/Oct/2021 10:32:21] "GET /streaming/clients_live.php HTTP/1.1" 404 11989
+Not Found: /stalker_portal/c/version.js
+[26/Oct/2021 10:32:22] "GET /stalker_portal/c/version.js HTTP/1.1" 404 11992
+Not Found: /stream/live.php
+[26/Oct/2021 10:32:22] "GET /stream/live.php HTTP/1.1" 404 11956
+Not Found: /flu/403.html
+[26/Oct/2021 10:32:22] "GET /flu/403.html HTTP/1.1" 404 11947
+Not Found: /gemini-iptv/vod.json
+[26/Oct/2021 10:32:23] "GET /gemini-iptv/vod.json HTTP/1.1" 404 11971
+Not Found: /gemini-iptv/get_prc.php
+[26/Oct/2021 10:32:23] "GET /gemini-iptv/get_prc.php HTTP/1.1" 404 11980
+[26/Oct/2021 10:32:23] "GET / HTTP/1.1" 200 11031
+[26/Oct/2021 10:43:45] "GET /static/css/bootstrap_latest/bootstrap.min.css HTTP/1.1" 304 0
+[26/Oct/2021 10:43:45] "GET /static/css/digital_locker.css HTTP/1.1" 304 0
+[26/Oct/2021 10:43:45] "GET /static/js/jquery-3.5.1.slim.min.js HTTP/1.1" 304 0
+[26/Oct/2021 10:43:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[26/Oct/2021 10:43:45] "GET /static/js/popper.min.js HTTP/1.1" 304 0
+[26/Oct/2021 10:43:46] "GET /static/images/Ripple-1s-200px%20(3).gif HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[26/Oct/2021 10:43:48] "GET /favicon.ico HTTP/1.1" 404 11941
+Not Found: /178.128.34.99:80
+[26/Oct/2021 12:55:15] "CONNECT 178.128.34.99:80 HTTP/1.1" 404 1679
+[26/Oct/2021 12:55:19] code 400, message Bad request syntax ('\x04\x01\x00P²\x80"c0\x00')
+[26/Oct/2021 12:55:19] " P²"c0 " 400 -
+[2021-10-26 12:55:19,980] - Broken pipe from ('109.234.153.131', 31571)
+
+Not Found: /http:/fingerprints.bablosoft.com/ip
+[26/Oct/2021 12:55:20] "POST http://fingerprints.bablosoft.com/ip?Z72240381060Q1 HTTP/1.1" 404 1747
+[26/Oct/2021 12:55:24] code 400, message Bad request syntax ('\x05\x01\x00')
+[26/Oct/2021 12:55:24] " " 400 -
+[2021-10-26 12:55:24,994] - Broken pipe from ('109.234.153.133', 53655)
+
+[26/Oct/2021 13:13:04] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[26/Oct/2021 13:13:04] "    c                           " 400 -
+[26/Oct/2021 14:03:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8a\x01\x00\x00\x86\x03\x03ÞT6g\x01P\x05ÉWi\x0f\x18{¶²8y¡©ÚÀ8¾\xad\x8elèö»\x1bßI\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[26/Oct/2021 14:03:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 14:51:12] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 14:53:31] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 15:00:02] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 15:08:49] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 15:08:49] "POST /register_ajax HTTP/1.1" 400 143
+[26/Oct/2021 15:19:24] "POST /login_ajax/ HTTP/1.1" 200 91
+[26/Oct/2021 17:02:25] "GET / HTTP/1.1" 200 11031
+[26/Oct/2021 17:50:27] "GET / HTTP/1.1" 200 11031
+[26/Oct/2021 17:50:27] "GET /static/css/digital_locker.css HTTP/1.1" 200 24897
+[26/Oct/2021 17:50:28] "GET /static/css/bootstrap_latest/bootstrap.min.css HTTP/1.1" 200 160409
+[26/Oct/2021 17:50:28] "GET /static/css/digital_locker_signin.css HTTP/1.1" 200 4233
+[26/Oct/2021 17:50:28] "GET /static/images/sign%20up_user_img.png HTTP/1.1" 200 859
+[26/Oct/2021 17:50:28] "GET /static/images/sign%20up_lock_img.png HTTP/1.1" 200 380
+[26/Oct/2021 17:50:28] "GET /static/images/Ripple-1s-200px%20(3).gif HTTP/1.1" 200 93586
+[26/Oct/2021 17:50:28] "GET /static/js/jquery-3.5.1.slim.min.js HTTP/1.1" 200 72382
+[26/Oct/2021 17:50:28] "GET /static/js/popper.min.js HTTP/1.1" 200 21262
+[26/Oct/2021 17:50:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60180
+Not Found: /favicon.ico
+[26/Oct/2021 17:50:31] "GET /favicon.ico HTTP/1.1" 404 11941
+[26/Oct/2021 17:51:59] "GET /register_ajax HTTP/1.1" 301 0
+Method Not Allowed: /register_ajax/
+[26/Oct/2021 17:52:00] "GET /register_ajax/ HTTP/1.1" 405 5722
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[26/Oct/2021 17:52:00] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[26/Oct/2021 17:52:01] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[26/Oct/2021 17:52:02] "GET /favicon.ico HTTP/1.1" 404 11941
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25009)
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25042)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25036)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25026)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25085)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('95.223.228.209', 25020)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:04:28] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:04:31] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:04:33] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:04:34] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:04:34] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /login_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/login_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:04:34] "POST /login_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:05:12] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:05:12] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:05:14] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:05:14] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:05:31] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:05:32] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:05:46] "POST /register_ajax HTTP/1.1" 400 143
+Bad request (Unable to parse request body): /register_ajax
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to dgglib.in:8000/register_ajax/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 94, in __call__
+    response = response or self.get_response(request)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 94, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 333, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 305, in get_traceback_data
+    'filtered_POST_items': list(self.filter.get_post_parameters(self.request).items()),
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/views/debug.py", line 177, in get_post_parameters
+    return request.POST
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 102, in _get_post
+    self._load_post_and_files()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 326, in _load_post_and_files
+    self._post, self._files = self.parse_file_upload(self.META, data)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/request.py", line 285, in parse_file_upload
+    parser = MultiPartParser(META, post_data, self.upload_handlers, self.encoding)
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/http/multipartparser.py", line 76, in __init__
+    raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+django.http.multipartparser.MultiPartParserError: Invalid boundary in multipart: None
+[26/Oct/2021 18:05:46] "POST /register_ajax HTTP/1.1" 400 143
+[27/Oct/2021 08:08:46] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.60', 48912)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[27/Oct/2021 09:12:59] "GET / HTTP/1.1" 200 11031
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.60', 47586)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/chinmoydas/env/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[27/Oct/2021 09:12:59] "GET / HTTP/1.1" 200 11031
+[27/Oct/2021 14:06:51] code 400, message Bad request version ('À\x14À')
+[27/Oct/2021 14:06:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+

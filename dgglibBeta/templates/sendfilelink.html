@@ -1,0 +1,18 @@
+{% load i18n %}{% autoescape off %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DggLib</title>
+  </head>
+  <body>
+    Hello {{recived_user}},
+    <p>{{send_user}} share file with you.Please click the link to go to your account and download this file</p>
+    <br>
+    {{content}}{% url 'share_render' uidb64=uid token=token %}
+    <p>Thanks</p><br>
+    <p style="color:red">** if you dont click this link you won't able to see the file in your account **</p>
+    {% endautoescape %}
+  </body>
+</html>
